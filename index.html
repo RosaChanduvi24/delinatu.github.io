@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repostería Dulce Sabor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Repostería Delinatu</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="home" class="home-section">
+        <div class="hero">
+	<img src="img/fruit-berry-tarts-dessert-on-260nw-1995021710.jpg" alt="Carrot cake fitness proteico">
+            <h2>Los mejores postres hechos con amor</h2>
+            <p>Disfruta de nuestros kekes, pasteles y galletas naturales.</p>
+            <a href="#products" class="btn">Ver productos</a>
+        </div>
+    </section>
+
+    <!-- Sección de Nosotros -->
+    <section id="about" class="about-section">
+        <h2>Sobre Nosotros</h2>
+        <p>En <strong>Delinatu</strong> nos dedicamos a crear los mejores postres caseros con ingredientes frescos y de alta calidad. Nos esforzamos por brindarte una experiencia deliciosa y única en cada bocado.</p>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="products" class="products-section">
+        <h2>Nuestros Productos</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="img/Carrot cake fitness proteico.jpg" alt="Carrot cake fitness proteico">
+                <h3>Carrot cake fitness proteico</h3>
+                <p>Un delicioso keke húmedo con el mejor chocolate.</p>
+                <button class="btn">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/Pastel fitness de frambuesas y avena sin azúcar.jpg" alt="Pastel fitness de frambuesas y avena sin azúcar">
+                <h3>Pastel fitness de frambuesas y avena sin azúcar</h3>
+                <p>Esponjoso y saludable, con un toque de nuez.</p>
+                <button class="btn">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/Pastel fitness de manzana.jpg" alt="Pastel fitness de manzana">
+                <h3>Pastel fitness de manzana</h3>
+                <p>Crujientes galletas con avena y pasas.</p>
+                <button class="btn">Añadir al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact-section">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o deseas hacer un pedido personalizado? Contáctanos.</p>
+        <form>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Repostería Delinatu. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
